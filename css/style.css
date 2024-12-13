@@ -1,0 +1,64 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #777;
+}
+
+/* General video section */
+.general-video {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.general-video video {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+/* Video container styling with grid layout for two columns */
+.video-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Video item styling */
+.video-item {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video-item video {
+    width: 100%;
+    height: auto;
+}
+
